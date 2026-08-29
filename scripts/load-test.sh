@@ -1,5 +1,5 @@
 #!/bin/bash
-DOMAIN="devopsdiaries.in"
+DOMAIN="your domain"
 
 echo "==> Installing hey (load test tool) if missing"
 if ! command -v hey &> /dev/null; then
