@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-DOMAIN="devopsdiaries.in"
-EMAIL="mortaldua@gmail.com"
+DOMAIN="your domain"
+EMAIL="your mail"
 
 GREEN='\033[0;32m'; YELLOW='\033[1;33m'; NC='\033[0m'
 info() { echo -e "${GREEN}[OK]${NC} $1"; }
