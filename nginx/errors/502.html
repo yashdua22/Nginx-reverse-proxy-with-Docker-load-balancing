@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Service temporarily unavailable</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f14;
+      color: #e8e8ed;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      max-width: 480px;
+      text-align: center;
+    }
+    .code {
+      font-size: 88px;
+      font-weight: 600;
+      line-height: 1;
+      color: #4f8ef7;
+      letter-spacing: -2px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 500;
+      margin: 20px 0 12px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #9a9aa6;
+      margin-bottom: 28px;
+    }
+    button {
+      background: #4f8ef7;
+      color: #fff;
+      border: none;
+      padding: 11px 24px;
+      border-radius: 8px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    button:hover { background: #3d78d8; }
+    .meta {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #55555f;
+      font-family: ui-monospace, monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="code">502</div>
+    <h1>Hum abhi thodi der mein wapas aate hain</h1>
+    <p>
+      Hamare servers ko ek chhoti si dikkat aa rahi hai. Team ko pata chal chuka hai.
+      Kuch seconds baad refresh karke dekhiye.
+    </p>
+    <button onclick="location.reload()">Retry</button>
+    <div class="meta">Error 502 &middot; Bad Gateway</div>
+  </div>
+</body>
+</html>
